@@ -1,0 +1,64 @@
+/* Algemene stijl */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #1E2134;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #EF233C;
+}
+
+header p {
+    color: #8D99AE;
+    font-size: 18px;
+}
+
+/* Main content */
+main {
+    padding: 40px 20px;
+}
+
+.links h2 {
+    margin-bottom: 30px;
+    color: #EDF2F4;
+    font-size: 28px;
+}
+
+/* Kaarten / knoppen */
+.card {
+    display: block;
+    width: 300px;
+    background-color: #8D99AE;
+    color: #2B2D42;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.card:hover {
+    background-color: #EF233C;
+    color: #EDF2F4;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #1E2134;
+    color: #8D99AE;
+    padding: 20px;
+    font-size: 14px;
+}
