@@ -3,7 +3,7 @@ p{
 }
 /* Hyperlink met icoontje */
 .iconlink {
-    background-image: url('Images/link-icon.png'); /* icoontje uit Images-map */
+    background-image: url("Images/link-icon.png"); /* icoontje uit Images-map */
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 25px;

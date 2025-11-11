@@ -1,14 +1,24 @@
-.checklist li {
+.checklist {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checklist li {
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 25px;
+    padding-left: 30px; /* ruimte voor icoontje */
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #2B2D42; /* donkere tekstkleur */
 }
 
+/* Aangevinkt item */
 .checklist li.checked {
-    background-image: url('checked.png'); /* icoontje met vinkje */
+    background-image: url('Images/icoontjeVinkje.png'); /* vinkje uit Images-map */
 }
 
+/* Niet aangevinkt item */
 .checklist li:not(.checked) {
-    background-image: url('Images/icoontjeX.png'); /* icoontje zonder vinkje */
+    background-image: url('Images/unchecked.png'); /* leeg vakje uit Images-map */
 }
