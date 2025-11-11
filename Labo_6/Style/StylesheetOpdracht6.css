@@ -1,0 +1,14 @@
+.checklist li {
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+}
+
+.checklist li.checked {
+    background-image: url('checked.png'); /* icoontje met vinkje */
+}
+
+.checklist li:not(.checked) {
+    background-image: url('Images/icoontjeX.png'); /* icoontje zonder vinkje */
+}

@@ -1,0 +1,16 @@
+p{
+    font-size: 20px;
+}
+/* Hyperlink met icoontje */
+.iconlink {
+    background-image: url('Images/link-icon.png'); /* icoontje uit Images-map */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.iconlink:hover {
+    text-decoration: underline;
+}
+
