@@ -1,0 +1,45 @@
+table.kalender {
+    width: 60%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Borders */
+table.kalender td, table.kalender th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Month row */
+table.kalender .month {
+    background-color: rgb(170,170,200);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Weekday header */
+table.kalender .days th {
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+
+/* Previous & next month styling */
+.prev-month,
+.next-month {
+    color: gray;
+}
+
+/* Weekends using nth-child (no extra class) */
+tbody tr td:nth-child(6),
+tbody tr td:nth-child(7) {
+    background-color: rgb(255,220,220);
+}
+
+/* Feestdagen override */
+.feest {
+    background-color: rgb(250,120,120) !important;
+    color: black;
+}
