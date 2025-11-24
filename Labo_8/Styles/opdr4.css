@@ -2,16 +2,34 @@
     width: 80px;
     height: 80px;
     display: inline-block;
-    background: red;
+    background-color: red;
     margin: 3px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
 }
 
+.tall {
+    height: 120px;
+    line-height: 120px;
+    background-color: orange;
+}
+
+.short {
+    height: 40px;
+    line-height: 40px;
+    background-color: pink;
+}
+
+
+/* 09, 12, 14 krijgen floaty class */
 .floaty {
     float: left;
-    background: lightgreen; /* zoals voorbeeld */
+    background-color: lightgreen;
 }
 
+/* Element 17 krijgt break class */
+/* Maar dit heeft GEEN effect omdat .area inline-block is */
 .break {
     clear: left;
-    /* geen effect omdat .area inline-block is */
 }

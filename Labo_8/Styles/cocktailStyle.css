@@ -1,0 +1,129 @@
+/* Base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #222;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Header */
+#imgHeader {
+    display: block;
+    margin: 20px auto;
+    max-width: 600px;
+}
+.cocktails-row {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cocktails-row img {
+    width: 80px; /* pas aan als nodig */
+    margin: 0 10px;
+}
+/* Layout */
+
+#content {
+    width: 70%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+#elixirs {
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+}
+
+/* weekly specials sidebar */
+.weekly-box {
+    background: #ffe6f2;
+    border: 2px solid #ffc6dd;
+    padding: 10px 15px;
+}
+
+.weekly-header {
+    text-align: center;
+}
+
+.weekly-header img {
+    width:100px;
+    height:auto;
+    display: inline-block;
+    vertical-align:center;
+}
+
+.weekly-header h1 {
+    margin-top: 10px;
+    color: #007e7e;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Drink cards */
+.special {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.drink-img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.special h2 {
+    margin: 5px 0 10px;
+    font-size: 130%;
+}
+
+.yellow { color: #d8a019; }
+.chai { color: #a64b4b; }
+.black { color: #333; }
+
+/* More link hover */
+.more a:hover {
+    background: saddlebrown;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+/* Info block (blue box) */
+.info-block {
+    margin: 30px 0;
+    padding: 20px;
+    background: #a7cece;
+    border: 2px dotted #fff;
+    color: #444;
+    border-radius: 5px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #007e7e;
+    font-weight: bold;
+}
+
+h1 { font-size: 150%; }
+h2 { font-size: 130%; }
+
+/* Music list */
+.cd { font-style: italic; }
+.artist { font-weight: bold; }
+
+/* Footer */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.6em;
+    color: #666;
+}

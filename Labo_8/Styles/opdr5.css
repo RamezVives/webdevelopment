@@ -1,11 +1,22 @@
 .area {
-    float: left;
     width: 80px;
     height: 80px;
-    background: lightblue;
-    margin: 3px;
+    background-color: lightblue;
+    margin: 5px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+
+    /* float maakt dit een BLOCK-FLOAT dus clear werkt wel */
+    float: left;
 }
 
+/* element 09, 12, 14 zweven links */
+.floaty {
+    background-color: lightgreen;
+}
+
+/* clear werkt wel, want .area is block-level float */
 .break {
     clear: left;
 }

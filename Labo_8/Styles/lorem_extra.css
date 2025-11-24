@@ -1,9 +1,12 @@
+/* Container met extra ruimte rondom */
 .container {
     width: 100%;
-    padding: 10px;   /* ruimte rondom columns */
+    padding: 10px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
+/* Kolommen blijven 50/50 */
 .kolom {
     float: left;
     width: 50%;
