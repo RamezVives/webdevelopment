@@ -1,0 +1,17 @@
+.area {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background: red;
+    margin: 3px;
+}
+
+.floaty {
+    float: left;
+    background: lightgreen; /* zoals voorbeeld */
+}
+
+.break {
+    clear: left;
+    /* geen effect omdat .area inline-block is */
+}

@@ -1,0 +1,11 @@
+.area {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: lightblue;
+    margin: 3px;
+}
+
+.break {
+    clear: left;
+}

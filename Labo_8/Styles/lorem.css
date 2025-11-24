@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.kolom {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box; /* JUISTE OPLOSSING */
+}
