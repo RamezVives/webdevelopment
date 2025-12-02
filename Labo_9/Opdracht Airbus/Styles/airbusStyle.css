@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.page {
+    width: 95%;
+    margin: auto;
+}
+
+/* --- TOP SECTION --- */
+.top {
+    height: 200px;
+    background-image: url("../images/bgsky3.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: darkblue;
+    position: relative;
+}
+
+.top-title {
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.top-subtitle {
+    font-size: 240%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.plane {
+    position: absolute;
+    right: 250px;
+    bottom: 60px;
+    width: 140px;
+    z-index: 5;
+}
+
+.content {
+    display: flex;
+}
+
+/* --- NEWS  --- */
+.news {
+    width: 25%;
+    background: #DDDDDD;
+    border: 1px solid #999;
+    padding: 10px;
+    font-size: 90%;
+    color: #666;
+    margin-left: 10px;
+}
+
+.news-title {
+    background: blue;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    padding: 4px 0;
+}
+
+/* --- MAIN --- */
+.main {
+    width: 75%;
+}
+
+/* INTRO */
+.introduction {
+    background: white;
+    padding: 20px 30px;
+    text-align: justify;
+}
+
+.intro-logo {
+    float: left;
+    margin: 10px 20px 10px 0;
+    height: 80px;
+}
+
+/* --- GALLERY --- */
+.gallery {
+    background: #999;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+    justify-items: center;
+}
+
+.photo {
+    background: white;
+    border: 1px dotted #999;
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.photo img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* --- FOOTER --- */
+.bottom {
+    background: #666;
+    color: white;
+    padding: 30px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.bottom ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.bottom ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+/* COPYRIGHT */
+.copyright {
+    text-align: center;
+    padding: 10px;
+    background: white;
+    color: black;
+    width: 100%;
+}
