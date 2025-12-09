@@ -1,0 +1,117 @@
+/* Algemene stijl */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+/* HERO SECTION */
+.hero-section {
+    margin: 2rem 0;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+}
+
+.hero-text h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.hero-text .accent {
+    color: #007bff;
+}
+
+.hero-text .lead {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.btn-main {
+    display: inline-block;
+    margin-top: 15px;
+    background: #007bff;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.hero-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 280px;
+    height: 280px;
+    background: url('https://images.unsplash.com/photo-1536337005238-94b997371b40?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWZyaWNhbiUyMHN0dWRlbnR8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* SECTIONS */
+.section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.3rem;
+    color: #007bff;
+    text-transform: uppercase;
+}
+
+/* LISTS */
+.interest-list {
+    list-style: none;
+    padding: 0;
+}
+
+.interest-list li {
+    background: #e8f0ff;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+/* CARDS */
+.card {
+    background: #fff;
+    padding: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* CONTACT FORM */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    width: 100%;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #555;
+}
