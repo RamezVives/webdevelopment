@@ -1,0 +1,73 @@
+/* Mobile-first basis */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    line-height: 1.4;
+    background: #fff;
+    color: #111;
+}
+
+.site-header {
+    padding: 1rem;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr; /* smartphones: 1 kolom */
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Card styling */
+.card {
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.card img {
+    width: 100%;
+    height: auto; /* schaalt netjes */
+    display: block;
+}
+
+.card p {
+    padding: 0.75rem;
+    margin: 0;
+}
+
+/* Tablet: >=768px -> 2 kolommen + achtergrond kleur */
+@media (min-width: 768px) {
+    body { background: #eef9ff; }
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1.5rem;
+    }
+}
+
+/* Desktop: >=992px -> 3 kolommen + andere achtergrond */
+@media (min-width: 992px) {
+    body { background: #f6fff2; }
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    background: #f7f7f7;
+}
