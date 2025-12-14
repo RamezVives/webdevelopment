@@ -1,0 +1,95 @@
+main {
+    display: grid;
+    gap: 15px;
+}
+main .block{
+    padding:20px;
+    color: white;
+    font-size: 4em;
+    font-weight:bold;
+    text-align:center;
+}
+
+/* ===== DESKTOP (≥ 992px) ===== */
+@media (min-width: 992px) {
+    main {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(3, 150px);
+    }
+
+    .block1 {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        background: mediumvioletred;
+    }
+
+    .block2 {
+        grid-column: 1 / 3;
+        grid-row: 2 ;
+        background: mediumblue;
+    }
+
+    .block3 {
+        background: cornflowerblue;
+        grid-row: 3 ;
+    }
+
+    .block4 {
+        background: lightblue;
+        grid-row: 3 ;
+    }
+}
+
+/* ===== TABLET (≥ 772px en < 992px) ===== */
+@media (min-width: 772px) and (max-width: 991px) {
+    main {
+        grid-template-rows: repeat(4, 150px);
+    }
+
+    .block1 {
+        grid-row: 1;
+        background: mediumvioletred;
+    }
+
+    .block2 {
+        grid-row: 3;
+        background: mediumblue;
+    }
+
+    .block3 {
+        grid-row: 2;
+        background: cornflowerblue;
+    }
+
+    .block4 {
+        grid-row: 4;
+        background: lightblue;
+    }
+}
+
+/* ===== MOBILE (< 772px) ===== */
+@media (max-width: 771px) {
+    main {
+        grid-template-rows: repeat(4, 150px);
+    }
+
+    .block1 {
+        grid-row: 2;
+        background: mediumvioletred;
+    }
+
+    .block2 {
+        grid-row: 1;
+        background: mediumblue;
+    }
+
+    .block3 {
+        grid-row: 3;
+        background: cornflowerblue;
+    }
+
+    .block4 {
+        grid-row: 4;
+        background: lightblue;
+    }
+}
