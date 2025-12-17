@@ -4,8 +4,6 @@ div div {
     padding: 20px;
     text-align: center;
     font-size: 3em;
-
-
 }
 div{
     display: grid;
@@ -13,10 +11,7 @@ div{
     gap: 10px;
     grid-template-rows: repeat(3, 150px);
 }
-
-
 /* specific item styles */
-
 .item-1 {
     background: #b03532;
 }
@@ -78,5 +73,4 @@ div{
     .item-1,.item-6 {
         display: none;
     }
-
 }
