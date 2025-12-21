@@ -63,9 +63,14 @@ a {
 }
 
 .container {
-/* flex-eigenschappen */
+    display: flex;
 }
 
 .card {
-    /* flex-eigenschappen */
+    flex-direction: row;
+    justify-content: center;
+    align-content: baseline;
+}
+.card:nth-child(2) {
+    transform:scale(106%);
 }
