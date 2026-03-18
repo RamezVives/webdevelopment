@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 17</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+<h1>Formvalidatie</h1>
+
+<form id="form">
+
+    <div>
+        <label>Voornaam:</label>
+        <input type="text" id="voornaam">
+        <span class="error" id="errVoornaam"></span>
+    </div>
+
+    <div>
+        <label>Familienaam:</label>
+        <input type="text" id="familienaam">
+        <span class="error" id="errFamilienaam"></span>
+    </div>
+
+    <div>
+        <label>Geboortedatum:</label>
+        <input type="text" id="geboortedatum" placeholder="jjjj-mm-dd">
+        <span class="error" id="errDatum"></span>
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <input type="text" id="email">
+        <span class="error" id="errEmail"></span>
+    </div>
+
+    <div>
+        <label>Aantal kinderen:</label>
+        <input type="text" id="kinderen">
+        <span class="error" id="errKinderen"></span>
+    </div>
+
+    <button type="button" id="valideer">Valideer</button>
+
+</form>
+
+<script src="Scripts/script.js"></script>
+</body>
+</html>
