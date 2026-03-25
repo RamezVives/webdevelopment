@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8"/>
+    <title>Over mij</title>
+
+    <style>
+        .listitem {
+            color: red;
+        }
+    </style>
+
+    <script>
+        const setup = () => {
+
+            // alle li elementen selecteren
+            let items = document.querySelectorAll("li");
+
+            // class aanpassen
+            for (let i = 0; i < items.length; i++) {
+                items[i].className = "listitem";
+            }
+
+            // img element maken
+            let img = document.createElement("img");
+            img.setAttribute("src", "Images/img.png");
+            img.setAttribute("alt", "Mijn foto");
+            img.width = 200;
+
+            // toevoegen aan body
+            document.body.appendChild(img);
+        };
+
+        window.addEventListener("load", setup);
+    </script>
+</head>
+
+<body>
+
+<h1>About Me</h1>
+
+<ul>
+    <li>Nickname: <span id="nickname"></span></li>
+    <li>Favorieten: <span id="favorites"></span></li>
+    <li>Thuisstad: <span id="hometown"></span></li>
+</ul>
+
+</body>
+</html>
