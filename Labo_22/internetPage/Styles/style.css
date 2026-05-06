@@ -1,0 +1,25 @@
+.google {
+    background-color: #4285F4;
+    color: white;
+}
+
+.youtube {
+    background-color: #FF0000;
+    color: white;
+}
+
+.x {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.instagram {
+    background-color: #C13584;
+    color: white;
+}
+
+.card a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
